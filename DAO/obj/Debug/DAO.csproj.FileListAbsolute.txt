@@ -1,0 +1,13 @@
+C:\Users\admin\Desktop\Winforms\BTL\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Winforms\BTL\DAO\obj\Debug\DAO.Properties.Resources.resources
+C:\Users\admin\Desktop\Winforms\BTL\DAO\obj\Debug\DAO.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\Winforms\BTL\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Winforms\BTL\DAO\bin\Debug\DAO.exe.config
+C:\Users\admin\Desktop\Winforms\BTL\DAO\bin\Debug\DAO.exe
+C:\Users\admin\Desktop\Winforms\BTL\DAO\bin\Debug\DAO.pdb
+C:\Users\admin\Desktop\Winforms\BTL\DAO\bin\Debug\DTO.exe
+C:\Users\admin\Desktop\Winforms\BTL\DAO\bin\Debug\DTO.pdb
+C:\Users\admin\Desktop\Winforms\BTL\DAO\bin\Debug\DTO.exe.config
+C:\Users\admin\Desktop\Winforms\BTL\DAO\obj\Debug\DAO.csproj.CopyComplete
+C:\Users\admin\Desktop\Winforms\BTL\DAO\obj\Debug\DAO.exe
+C:\Users\admin\Desktop\Winforms\BTL\DAO\obj\Debug\DAO.pdb

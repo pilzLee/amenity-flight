@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Amonic">
+  <DataContextMoniker Name="/AmonicDataContext" />
+  <nestedChildShapes>
+    <classShape Id="88ac5831-1724-462d-8e1e-8cf3495c1df0" absoluteBounds="5.375, 5.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/AmonicDataContext/Aircraft" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e401614d-dfd0-448b-a7c6-d368eeb53c9b" absoluteBounds="5.3900000000000006, 6.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c244ea59-6370-49d6-876a-73681f40d9f8" absoluteBounds="8.5, 2.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/AmonicDataContext/Airport" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8fbe237c-ed4c-4487-bede-60f07aee2c71" absoluteBounds="8.515, 2.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="895330ce-16f2-453d-9350-b88a1e176f7b" absoluteBounds="0.5, 4.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/AmonicDataContext/Amenity" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7436574f-0d39-4634-b515-88e8b5675532" absoluteBounds="0.51500000000000012, 5.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="727474e3-2a35-4cc8-94f1-34bd042fa1ae" absoluteBounds="0.5, 6.625, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/AmonicDataContext/AmenitiesCabinType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c7cd8abb-1430-4fa7-abb7-b3a8bf06b933" absoluteBounds="0.51499999999999968, 7.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.5 : 6.1362939453125); (1.5 : 6.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AmonicDataContext/Amenity/Amenity_AmenitiesCabinType" />
+      <nodes>
+        <classShapeMoniker Id="895330ce-16f2-453d-9350-b88a1e176f7b" />
+        <classShapeMoniker Id="727474e3-2a35-4cc8-94f1-34bd042fa1ae" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="7ee6a096-543b-4caf-b6fa-1dba1d338fea" absoluteBounds="0.5, 3, 2, 1.3862939453125">
+      <DataClassMoniker Name="/AmonicDataContext/AmenitiesTicket" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e984ad43-de4e-406d-a5ff-6c38885debb5" absoluteBounds="0.51500000000000012, 3.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.5 : 4.75); (1.5 : 4.3862939453125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AmonicDataContext/Amenity/Amenity_AmenitiesTicket" />
+      <nodes>
+        <classShapeMoniker Id="895330ce-16f2-453d-9350-b88a1e176f7b" />
+        <classShapeMoniker Id="7ee6a096-543b-4caf-b6fa-1dba1d338fea" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="de72f820-bc02-4a0a-9ee7-1316b80468ec" absoluteBounds="3, 6.625, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/AmonicDataContext/CabinType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="81bdcdb2-ef58-40a0-9d16-1c64e6b92bb5" absoluteBounds="3.0149999999999997, 7.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3 : 7.22199625651042); (2.5 : 7.22199625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AmonicDataContext/CabinType/CabinType_AmenitiesCabinType" />
+      <nodes>
+        <classShapeMoniker Id="de72f820-bc02-4a0a-9ee7-1316b80468ec" />
+        <classShapeMoniker Id="727474e3-2a35-4cc8-94f1-34bd042fa1ae" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="3ac410e8-d827-447a-99c7-34ed09e0c2ad" absoluteBounds="8.5, 0.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/AmonicDataContext/Country" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8e6492d2-5ec5-41a5-a820-c75d31c2800a" absoluteBounds="8.515, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(9.5 : 1.69399251302083); (9.5 : 2.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AmonicDataContext/Country/Country_Airport" />
+      <nodes>
+        <classShapeMoniker Id="3ac410e8-d827-447a-99c7-34ed09e0c2ad" />
+        <classShapeMoniker Id="c244ea59-6370-49d6-876a-73681f40d9f8" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="90b744f7-405a-4e02-8684-a53cc910368c" absoluteBounds="5.375, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/AmonicDataContext/Office" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b6c2ebbd-8440-44e3-a65d-1fcc638da580" absoluteBounds="5.39, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.5 : 1.09699625651042); (7.375 : 1.09699625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AmonicDataContext/Country/Country_Office" />
+      <nodes>
+        <classShapeMoniker Id="3ac410e8-d827-447a-99c7-34ed09e0c2ad" />
+        <classShapeMoniker Id="90b744f7-405a-4e02-8684-a53cc910368c" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="53b1931d-f3b8-4e8f-841b-f442fdd57f81" absoluteBounds="0.5, 0.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/AmonicDataContext/Role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="faf011f9-7e13-4a2b-9606-4259dd137a62" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6eae2ac4-d45a-4bb3-ba7b-3975550c1950" absoluteBounds="8.5, 4.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/AmonicDataContext/Route" />
+      <nestedChildShapes>
+        <elementListCompartment Id="16688b8f-606c-4b1f-aaf9-cfc5cce4a84a" absoluteBounds="8.515, 4.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(9.5 : 3.95359537760417); (9.5 : 4.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AmonicDataContext/Airport/Airport_Route" />
+      <nodes>
+        <classShapeMoniker Id="c244ea59-6370-49d6-876a-73681f40d9f8" />
+        <classShapeMoniker Id="6eae2ac4-d45a-4bb3-ba7b-3975550c1950" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.0625 : 3.95359537760417); (10.0625 : 4.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AmonicDataContext/Airport/Airport_Route1" />
+      <nodes>
+        <classShapeMoniker Id="c244ea59-6370-49d6-876a-73681f40d9f8" />
+        <classShapeMoniker Id="6eae2ac4-d45a-4bb3-ba7b-3975550c1950" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="dc15cf15-3717-4dd1-8091-2c6f5fa642fe" absoluteBounds="5.375, 3.25, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/AmonicDataContext/Schedule" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b5ba4dca-cb50-47e1-96b3-f7a401a76d62" absoluteBounds="5.39, 3.71, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.375 : 5.875); (6.375 : 5.59780110677083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AmonicDataContext/Aircraft/Aircraft_Schedule" />
+      <nodes>
+        <classShapeMoniker Id="88ac5831-1724-462d-8e1e-8cf3495c1df0" />
+        <classShapeMoniker Id="dc15cf15-3717-4dd1-8091-2c6f5fa642fe" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 5.04890055338542); (7.375 : 5.04890055338542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AmonicDataContext/Route/Route_Schedule" />
+      <nodes>
+        <classShapeMoniker Id="6eae2ac4-d45a-4bb3-ba7b-3975550c1950" />
+        <classShapeMoniker Id="dc15cf15-3717-4dd1-8091-2c6f5fa642fe" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="e9a68e30-5dca-49c6-8c9c-038b5aa54d27" absoluteBounds="3, 3.375, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/AmonicDataContext/Ticket" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3665795b-b515-4356-8ab7-1a898bf1fe0c" absoluteBounds="3.0150000000000006, 3.835, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3 : 3.88064697265625); (2.5 : 3.88064697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AmonicDataContext/Ticket/Ticket_AmenitiesTicket" />
+      <nodes>
+        <classShapeMoniker Id="e9a68e30-5dca-49c6-8c9c-038b5aa54d27" />
+        <classShapeMoniker Id="7ee6a096-543b-4caf-b6fa-1dba1d338fea" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.375 : 4.48640055338542); (5 : 4.48640055338542)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AmonicDataContext/Schedule/Schedule_Ticket" />
+      <nodes>
+        <classShapeMoniker Id="dc15cf15-3717-4dd1-8091-2c6f5fa642fe" />
+        <classShapeMoniker Id="e9a68e30-5dca-49c6-8c9c-038b5aa54d27" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5625 : 6.625); (4.5625 : 6.29970540364583)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AmonicDataContext/CabinType/CabinType_Ticket" />
+      <nodes>
+        <classShapeMoniker Id="de72f820-bc02-4a0a-9ee7-1316b80468ec" />
+        <classShapeMoniker Id="e9a68e30-5dca-49c6-8c9c-038b5aa54d27" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="08ea44e3-2c32-4f57-95b9-886c1ffa6db8" absoluteBounds="3, 0.5, 2, 2.5401025390625">
+      <DataClassMoniker Name="/AmonicDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="90c5cd29-a8d2-4ff8-b8b8-bca1ec72dc7f" absoluteBounds="3.0149999999999997, 0.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.37499975 : 3.0401025390625); (3.37499975 : 3.375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AmonicDataContext/User/User_Ticket" />
+      <nodes>
+        <classShapeMoniker Id="08ea44e3-2c32-4f57-95b9-886c1ffa6db8" />
+        <classShapeMoniker Id="e9a68e30-5dca-49c6-8c9c-038b5aa54d27" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.375 : 1.89067260742187); (5 : 1.89067260742187)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AmonicDataContext/Office/Office_User" />
+      <nodes>
+        <classShapeMoniker Id="90b744f7-405a-4e02-8684-a53cc910368c" />
+        <classShapeMoniker Id="08ea44e3-2c32-4f57-95b9-886c1ffa6db8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5 : 0.84375); (3 : 0.84375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/AmonicDataContext/Role/Role_User" />
+      <nodes>
+        <classShapeMoniker Id="53b1931d-f3b8-4e8f-841b-f442fdd57f81" />
+        <classShapeMoniker Id="08ea44e3-2c32-4f57-95b9-886c1ffa6db8" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

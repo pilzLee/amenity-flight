@@ -1,0 +1,9 @@
+C:\Users\admin\Desktop\Winforms\BTL\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Winforms\BTL\DTO\obj\Debug\DTO.Properties.Resources.resources
+C:\Users\admin\Desktop\Winforms\BTL\DTO\obj\Debug\DTO.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\Winforms\BTL\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Winforms\BTL\DTO\bin\Debug\DTO.exe.config
+C:\Users\admin\Desktop\Winforms\BTL\DTO\bin\Debug\DTO.exe
+C:\Users\admin\Desktop\Winforms\BTL\DTO\bin\Debug\DTO.pdb
+C:\Users\admin\Desktop\Winforms\BTL\DTO\obj\Debug\DTO.exe
+C:\Users\admin\Desktop\Winforms\BTL\DTO\obj\Debug\DTO.pdb
